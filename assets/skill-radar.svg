@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" role="img" aria-labelledby="title desc">
+  <title id="title">Development capability radar</title>
+  <desc id="desc">A decorative radar chart covering frontend, backend, databases, mobile, cloud, infrastructure, and payments.</desc>
+  <rect width="760" height="500" rx="18" fill="#0d1117"/>
+  <g transform="translate(380 250)" fill="none" stroke="#30363d" stroke-width="1.5">
+    <polygon points="0,-180 141,-112 176,40 78,162 -78,162 -176,40 -141,-112"/>
+    <polygon points="0,-135 106,-84 132,30 59,122 -59,122 -132,30 -106,-84"/>
+    <polygon points="0,-90 70,-56 88,20 39,81 -39,81 -88,20 -70,-56"/>
+    <polygon points="0,-45 35,-28 44,10 20,40 -20,40 -44,10 -35,-28"/>
+    <path d="M0 0V-180M0 0L141-112M0 0L176 40M0 0L78 162M0 0L-78 162M0 0L-176 40M0 0L-141-112"/>
+  </g>
+  <g transform="translate(380 250)">
+    <polygon points="0,-165 127,-101 150,34 62,129 -64,133 -145,33 -120,-95" fill="#39d353" fill-opacity=".18" stroke="#39d353" stroke-width="3">
+      <animate attributeName="fill-opacity" values=".12;.28;.12" dur="3s" repeatCount="indefinite"/>
+    </polygon>
+    <g fill="#39d353">
+      <circle cx="0" cy="-165" r="5"/><circle cx="127" cy="-101" r="5"/><circle cx="150" cy="34" r="5"/>
+      <circle cx="62" cy="129" r="5"/><circle cx="-64" cy="133" r="5"/><circle cx="-145" cy="33" r="5"/><circle cx="-120" cy="-95" r="5"/>
+    </g>
+  </g>
+  <g fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" text-anchor="middle">
+    <text x="380" y="42">FRONTEND</text><text x="566" y="125">BACKEND</text><text x="590" y="310">DATABASES</text>
+    <text x="474" y="457">MOBILE</text><text x="286" y="457">CLOUD</text><text x="166" y="310">INFRASTRUCTURE</text><text x="190" y="125">PAYMENTS</text>
+  </g>
+  <text x="28" y="472" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">$ capabilities --map</text>
+</svg>
