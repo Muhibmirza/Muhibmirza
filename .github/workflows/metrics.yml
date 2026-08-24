@@ -17,13 +17,13 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      # Manual setup required:
-      # Add a repository Actions secret named GH_TOKEN in Settings > Secrets and
-      # variables > Actions. Use a classic PAT with `repo` and `user` scopes.
+      # The repository's built-in token is sufficient for this public profile.
+      # If private-repository metrics are enabled later, replace this with a
+      # manually added GH_TOKEN secret that has the required repository scopes.
       - name: Render isometric calendar
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           user: Muhibmirza
           filename: github-metrics.svg
