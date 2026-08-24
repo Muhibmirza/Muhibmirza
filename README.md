@@ -82,7 +82,7 @@ IT_INFRASTRUCTURE = [
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Muhibmirza&show_icons=true&hide_border=true&bg_color=0d1117&title_color=39d353&icon_color=39d353&text_color=c9d1d9&ring_color=39d353" alt="Muhib's GitHub stats" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Muhibmirza&theme=github_dark" alt="Muhib's GitHub stats" />
 <img width="49%" src="https://streak-stats.demolab.com?user=Muhibmirza&hide_border=true&background=0D1117&ring=39D353&fire=39D353&currStreakLabel=39D353&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E" alt="Muhib's GitHub streak" />
 
 <img src="./github-metrics.svg" alt="Muhib's isometric contribution calendar" />
